@@ -17,7 +17,7 @@ public class FirstJavaProgram {
 	// Logging system
 	
 	/**
-	 * 
+	 * Documentation comments
 	 * @param args
 	 * @throws FileNotFoundException
 	 */
@@ -60,7 +60,7 @@ public class FirstJavaProgram {
 		PrintWriter writer = new PrintWriter("C:\\AutomationTraining\\AutomationProject\\src\\languages\\basics\\log.txt");
 		writer.println("Line 52 is executing");
 		writer.println(LocalDateTime.now()+"Execution is compiled");
-        writer.close();
+                writer.close();
 		
 		//error
 		System.err.println("error");
