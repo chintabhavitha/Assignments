@@ -1,0 +1,2 @@
+print the logs
+2025-04-07T14:20:51.323936500  print the logs with date and time
