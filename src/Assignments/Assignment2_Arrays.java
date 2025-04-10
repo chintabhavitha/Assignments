@@ -14,8 +14,7 @@ public class Assignment2_Arrays {
 		 */
 		
 		
-		String Data[][][] = new String[5][6][2]; // 5 semisters, each semister having 6 subjects, each subject having
-													// subject name and status
+		String Data[][][] = new String[5][6][2]; // 5 semesters, each semester having 6 subjects, each subject having subject name and status
     
 		// Sem 1 subjects Names
 		Data[0][0][0] = "Mathematics I";
@@ -98,7 +97,7 @@ public class Assignment2_Arrays {
 		Data[4][5][1] = "Pass(90)";
 		
 		System.out.println("Semester 2 Subject 4 and Subject 5 names: " + Data[1][3][0]+ " , " + Data[1][3][1] + " and " + Data[1][4][0] + " , "+ Data[1][4][1] );
-		System.out.println("The Status/Marks of Semester 4 Subject 3 and Subject 6: " + Data[3][2][0] + " , "+ Data[3][2][1] + " and " + Data[3][5][0] + " , " + Data[3][5][1]);
+		System.out.println("The Status/Marks of Semester 4 Subject 3 and Subject 6 names: " + Data[3][2][0] + " , "+ Data[3][2][1] + " and " + Data[3][5][0] + " , " + Data[3][5][1]);
        
 		
 		
@@ -106,5 +105,4 @@ public class Assignment2_Arrays {
 		
 
 	}
-
 }
