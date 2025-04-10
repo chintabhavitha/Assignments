@@ -21,7 +21,7 @@ public class FirstJavaProgram {
 
 	/**
 	 * Documentation comments
-	 * 
+
 	 * @param args
 	 * @throws FileNotFoundException
 	 */
@@ -59,12 +59,25 @@ public class FirstJavaProgram {
 		log.info("currently line 46 is executing");
 		log.warning("Warning in 47");
 
+		
+		
 		//
-		PrintWriter writer = new PrintWriter(
-				"C:\\AutomationTraining\\AutomationProject\\src\\languages\\basics\\log.txt");
+		PrintWriter writer = new PrintWriter("C:\\AutomationTraining\\AutomationProject\\src\\languages\\basics\\log.txt");
 		writer.println("Line 52 is executing");
-		writer.println(LocalDateTime.now() + "Execution is compiled");
-		writer.close();
+		writer.println(LocalDateTime.now()+"Execution is compiled");
+                writer.close();
+		
+		//error
+		System.err.println("error");
+		
+
+
+		//
+		PrintWriter writer1 = new PrintWriter(
+				"C:\\AutomationTraining\\AutomationProject\\src\\languages\\basics\\log.txt");
+		writer1.println("Line 52 is executing");
+		writer1.println(LocalDateTime.now() + "Execution is compiled");
+		writer1.close();
 
 		// error
 		System.err.println("error");
