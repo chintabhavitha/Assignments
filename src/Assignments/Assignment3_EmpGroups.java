@@ -1,9 +1,9 @@
 package Assignments;
 
-public class EmpGroups {
+public class Assignment3_EmpGroups {
 
 	public static void main(String[] args) {
-		Employees obj = new Employees();
+		Assignment3_Employees obj = new Assignment3_Employees();
 
 		//System.out.println("Employee Name: " + obj.empname1 + ", " + "Employee ID: " + obj.empid1);
 		/*
