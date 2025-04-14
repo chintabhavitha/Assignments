@@ -48,8 +48,7 @@ public class Assignment4_Arrays_Collections {
 		CityLinkedHashSet.add("Grand Central Terminal in New York City - USA");
 
 		System.out.println("Top 10 most visited tourist attractions in the world \n" + CityLinkedHashSet);
-		System.out.println(
-				"The size of top 10 most visited tourist attractions in the world is " + CityLinkedHashSet.size());
+		System.out.println("The size of top 10 most visited tourist attractions in the world is \n"+ CityLinkedHashSet.size());
 
 		// 3. Create an array of 10 numbers (any 10 numbers) and print out the Average
 		// of 5th and 6th Value.
