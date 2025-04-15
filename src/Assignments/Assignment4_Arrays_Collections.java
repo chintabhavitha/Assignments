@@ -24,7 +24,7 @@ public class Assignment4_Arrays_Collections {
 		AreasArrayList.add(253000.0);
 		AreasArrayList.add(24000.0);
 		AreasArrayList.add(159534.0);
-		AreasArrayList.add(100000.0);
+		AreasArrayList.add(100000.0);  
 		AreasArrayList.add(789.0);
 
 		Double totalarea = AreasArrayList.get(2) + AreasArrayList.get(3);
