@@ -1,6 +1,6 @@
-package Assignments;
+package assignments;
 
-public class Assignement2_Arrays_solution2 {
+public class Assignement2_Arrays_Solution2 {
 
 	public static void main(String[] args) {
 		 // 3D Array: [Semester][Subject/Marks][Values]
